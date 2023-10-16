@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        #search {
+            text-align: center;
+        }
+
+        #main {
+            max-width: 900px;
+            margin: 20px auto;
+        }
+
+        .post {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        .post img {
+            max-width: 100%;
+        }
+
+        #footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">Instagram</div>
+        <div id="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div id="main">
+        <div class="post">
+            <img src="sample-image.jpg" alt="Sample Post">
+        </div>
+        <div class="post">
+            <img src="sample-image.jpg" alt="Sample Post">
+        </div>
+        <!-- Add more posts here -->
+    </div>
+    <div id="footer">
+        &copy; 2023 Instagram Clone
+    </div>
+</body>
+</html>

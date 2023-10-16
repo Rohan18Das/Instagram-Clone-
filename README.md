@@ -1,4 +1,4 @@
-# Instagram-Clone-
+
 # Instagram Clone
 
 Welcome to the Instagram Clone project!
